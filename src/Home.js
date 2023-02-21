@@ -18,9 +18,15 @@ function Home() {
         Developer providing services for  building (and occasionally designing) exceptional digital experiences.
       </p>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-        <AiFillGithub />
-        <AiFillLinkedin />
-        <AiFillFacebook/>
+        <a href="https://github.com/VeejayAdolf-Lemita" target="_blank">
+          <AiFillGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/veejay-adolf-lemita-b572b217b/" target="_blank">
+          <AiFillLinkedin />
+        </a>
+        <a href="https://web.facebook.com/veejay.lemita.75/" target="_blank">
+          <AiFillFacebook/>
+        </a>
       </div>
     </div>
   )
